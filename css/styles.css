@@ -1,0 +1,540 @@
+
+body,td,th {
+    font-family: Tahoma, Verdana;
+    font-size: 13px;
+    color : #333333;	
+}
+body {
+    margin-left: 0px;
+    margin-top: -20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    /*	background: url("http://i1.trstatic.com/images/201011/bkg-trunk.gif") repeat-x scroll 0 0 transparent;*/
+    background-repeat: repeat;
+}
+
+a{
+    font-family: Tahoma, Verdana;
+    text-decoration: none;
+    font-size: 11px;
+    color:#333333;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #999999;
+}
+a:hover {
+    text-decoration: none;
+    color: #dadadb;
+}
+a:active {
+    text-decoration: none;
+    color: #333333;
+}
+.style1 {
+    color: #dadadb;
+    font-weight: bold;
+    font-size: 11px;
+}
+.style3 {font-weight: bold; font-size: 10px;}
+.style4 {color: #FFFFFF}
+.style5 {
+    color: #dadadb;
+    font-weight: bold;
+    font-size: 10px;
+}
+.news {
+    color: #4f4f4f;
+    font-weight: normal;
+    font-size: 6px;
+    font-family :Tahoma;
+}
+.TextIndicator_TextBox1 {
+    background-color:Gray;
+    color:White;
+    font-family:Arial;
+    font-size:x-small;
+    font-style:italic;  
+    padding: 2px 3px 2px 3px;   
+}
+
+.footer-links a:hover{
+    color:#a1a1a1;
+}
+
+.loginpage_contactinfo
+{
+    list-style-type:none;
+    font-size:12px; 
+    float:left;
+    padding: 0 0 0 2px;
+    max-height:13px;
+}
+
+.liststyle_none
+{
+    list-style-type:none;
+}
+.bold_weight
+{
+    font-weight:bold;
+}
+
+.italic_style
+{
+    font-style:italic;
+}
+
+.text_underline
+{
+    text-decoration:underline ;
+}
+
+.color_azure4
+{
+    color:#838B8B;
+}
+
+#header-pri {
+    /*  background: url("../images/clarice-bg-home.png") repeat-x scroll 0 0 transparent;*/
+    height:105px;
+    /* margin-bottom:15px;*/
+    width:1000px;
+    background:none repeat scroll 0 0 #277594;
+    margin:0 auto;
+}
+#header
+{
+    background:none repeat scroll 0 0 #277594; 
+    height:113px;
+    padding-top: 28px;
+}
+.site-logo {
+    background: url("../images/clarice-logo.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 43px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-indent: -9999px;
+    width: 227px;
+}
+
+.bgwhite{ 	background-color :White;}
+
+.width995{	width: 995px;}
+.aligncenter{	text-align: center;}
+.alignleft{TEXT-ALIGN: left;}
+.width100per{width: 100%;}
+
+.width530{width: 530px;}
+.width503{width: 503px;}
+.width454{width: 454px;}
+.width250{width:250px; }
+.width230{width:230px; }
+.width104{width: 104px;}
+.width113{width: 113px;}
+.width100px{width: 100px;}
+.height296{	height: 296px;}
+.height300{	height: 300px;}
+.height20{	height: 20px;}
+.height15{	height: 15px;}
+.margin85-295{margin: 85px 0 0 295px;}
+
+.fontsize11{font-size:11px;}
+.fontsize12{font-size:12px;}
+.fontsize13{font-size:13px;}
+
+.colorgray{color:#838B8B;}
+.colorblack{color:#000;}
+.colorskyblue{color:#3BB9FF;}
+.floatright{float:right;}
+.floatleft{float:left;}
+
+.menuli
+{
+    float:left;
+    list-style-type:none;
+}
+
+.menulifooter
+{
+    float:left;
+    list-style-type:none;
+    color:#999;
+}
+.menuul
+{
+    padding:0px 30px 0px 0px;
+}
+
+.header_dashboard
+{
+    width:100%;
+    background: url("../images/headerbg_dashboard.png") repeat-x left top; 
+    height:35px;
+}
+
+
+.blogBox
+{ 
+    width:975px; 
+    padding-right: 20px;
+    min-height: 385px;
+    margin: 0 auto;
+}
+
+#centertable
+{
+    border-radius: 1px; border-style:solid; border-color: #838B8B; padding:10; background-color: #FFFFFF; margin-left:auto; margin-right:auto ;
+}
+
+
+.contactInfoTable
+{
+    text-align:left;
+    float: left; 
+    margin: -80px 0 0 7px;
+}
+
+.tableTextAlign td
+{
+    font-size:12px;
+    overflow:hidden;
+    height:3px !important;
+}
+
+.wrapper{width:985px; margin:0 auto; min-height:450px;position:relative}
+
+.outerFooterDiv
+{
+    max-width:1000px; 
+    margin:0 auto;
+    border-top:1px solid #E1E1E1;
+}
+
+.clear
+{
+    clear:both;
+    height:0;
+}
+
+.footer-height-bottom-5
+{
+    margin-top:15px;
+}
+
+.clarice-footer-bar {
+    color: #BEBEBE;
+    font-size: 0.89em;
+    line-height: 18px;
+    margin: 0px auto 0px;
+    padding: 0px 0px 0px;
+    width: 1000px !important;
+    position:relative;
+    font-family: 'DroidSansRegular',Arial,sans-serif;
+    display:block;	
+}
+
+.footerfont {
+    FONT-FAMILY: "DroidSansRegular", Arial, sans-serif;
+    color : #bebebe;	
+}
+
+.footer-links {
+    display: block;
+    float: left;
+    margin: 0;
+    height:15px;
+}
+
+.footer-links a {
+    background: url("../images/banner-dot.png") no-repeat left  bottom;
+    color: #BEBEBE;
+    padding:8px 7px 0px 6px;
+    text-decoration: none;
+    font-size:13px;
+}
+
+
+.footer-links a:first-child {
+    PADDING-BOTTOM: 0px; 
+    PADDING-LEFT: 0px; 
+    PADDING-RIGHT: 8px; 
+    BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 0px;
+}
+
+
+.footer-social-network {
+    float: right;
+}
+
+.footer-social-network a {
+    background: url("../images/social-network-icon.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 28px;
+    margin-left: 12px;
+    text-decoration: none;
+    width: 28px;
+}
+.footer-social-network .facebook {
+    background-position: left top;
+}
+
+
+.footer-social-network .facebook:hover {
+    background-position: left bottom;
+}
+
+
+.footer-social-network .twitter {
+    background-position: -40px top;
+}
+
+.footer-social-network .twitter:hover {
+    background-position: -40px bottom;
+}
+
+.footer-social-network .in {
+    background-position: -80px top;
+}
+.footer-social-network .in:hover {
+    background-position: -80px bottom;
+}
+
+
+.footer-social-network .wordpress {
+    background-position: -120px top;
+}
+.footer-social-network .wordpress:hover {
+    background-position: -120px bottom;
+}
+
+
+.footerdiv
+{
+    float:right;
+    width:200px;
+    height:30px;
+    margin-right: -30px;
+}
+
+.footerimg
+{
+    padding:0px 10px 0px 0px;	
+}
+
+.header-links a {
+    background: url("../images/bkg-nav-pri-sep.gif") no-repeat scroll left 6px transparent;
+    padding: 6px 8px;
+    text-align: center;
+    color:#FFFFFF;
+    font-weight:bold;
+    font-family: 'DroidSansRegular',Arial,sans-serif;
+}
+
+.header-links a:hover {
+    color:#dadadb;
+}
+
+.header-links a:first-child {
+    PADDING-BOTTOM: 0px; 
+    PADDING-LEFT: 0px; 
+    PADDING-RIGHT: 8px; 
+    BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 0px;
+}
+
+#navcontainer
+{
+    margin: 0 auto;
+    display: inline-block;
+    margin-left:745px;
+    padding-right:-10px;
+    width: 233px;
+    margin-right: -293px;
+    overflow:hidden;
+}
+
+
+
+.footer-height-bottom
+{
+    height: 30px;
+}
+
+
+
+
+.header-links {
+    display: block;
+    float:right !important;
+    margin: 0;
+}
+
+.loadingMask {
+    background: url(../images/new_loader.gif) center 50% no-repeat #000; 
+    top:0; 
+    left:0; 
+    position:fixed; 
+    height:100%; 
+    width:100%; 
+    opacity:0.7;
+    filter:alpha(opacity=70); 
+    z-index:12030
+}
+.submit-button { 
+    background-color:#818285; 
+    border:1px solid #818285;
+    border-radius:1px;
+    text-align:center;
+    color:#fff; 
+    width:55px; 
+    padding-bottom:2px; 
+    cursor: pointer;
+}
+
+.clear{
+    clear:both;
+    height:0px 
+}
+
+.listl{
+    float:right;
+    position:relative;
+    z-index:99999;
+}
+
+.listl ul{
+    list-style:none;
+    position:absolute;
+    display:none;
+    margin:25px 5px 5px 0px;
+    z-index: 99999;
+    background: #215c73;
+    border-radius:1px;
+    width:108px;
+}
+.listl ul li{
+    margin: 0;
+    padding: 0 0 0 5px;
+}
+.listl ul li a{
+    padding: 8px;
+    line-height: 1;
+}
+.listl li:hover > ul{
+    display:block;
+}
+.listl .iconblog{
+    position:absolute;
+}
+.leftalign{ 
+    float:left;
+}
+.textright{
+    text-align:right;
+}
+
+.textleft{
+    text-align:left;
+}
+
+.textcenter{
+    text-align:center;
+}
+.textbold{
+    font-weight:bold
+}
+
+.img_border{ 
+    padding:5px;
+    margin:10px 0;
+    border:1px solid #ccc;
+}
+.widthfull-100per
+{
+    width:100%;
+    padding-bottom: 25px;
+}
+.display-inline-block{display:inline-block}
+/*********************
+        1.6 CLEARFIX
+**********************/
+/* float clearing for IE6 */ 
+* html .clearfix{   height: 1%;   overflow: visible; }
+
+/* float clearing for IE7 */ 
+*+html .clearfix{   min-height: 1%; }  
+
+/* float clearing for everyone else */ 
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: '.';
+    clear: both;
+    height: 0;
+}
+/*********************
+2.1 MASTER BLOCK
+**********************/
+.wrapper-home{
+    position: relative;
+    background:none repeat scroll 0 0 #2795B6;
+}
+.wrapper {
+    position: relative;
+    background: none repeat scroll 0 0 #2795B6 ;
+}
+
+/************************
+2.2	HEADER
+*************************/
+.clarice-header-bar-home{
+    background: url(images/bg-image/clarice-bg-home-topeffect.jpg) no-repeat center top;
+    height:512px; width:100%; margin:0px auto;overflow: hidden; 
+}	
+.clarice-header-topmargin{margin:28px 0 0 0; /*background:url(images/seperator.jpg) repeat-x left bottom;*/ padding-bottom:10px;}
+.clarice-header-bar{
+    margin:0px auto;overflow: hidden; height:315px;
+
+}	
+.wrapper-banner-company{
+    background: url(images/bg-image/clarice-bg-inner-topeffect.jpg) no-repeat center top;
+}
+.wrapper-banner-services{
+}
+.wrapper-banner-customers{
+    background:url(images/banner-images/clarice-customers-banner.png) no-repeat right bottom;
+}
+.wrapper-banner-careers{
+    background:url(images/banner-images/clarice-careers-banner.png) no-repeat right bottom;
+}
+.wrapper-banner-contactus{
+    margin:0px auto;background:url(images/banner-images/clarice-contactus-banner.png) no-repeat right bottom;
+}
+.clarice-header-topmargin .logo {
+    float: left;
+}
+/* site(logo) + tagline */
+.clarice-site-logo {
+    position: relative; 
+    z-index: 1; 
+    overflow: hidden; 
+    display:block;
+    margin-left:16px;
+}
+.clarice-site-logo1 {
+    position: relative;
+    z-index: 1;
+    overflow: hidden; 
+    display:block;
+    margin-right:16px;
+}
+/*Home-banner*/
+.logo-nav-block{width:1000px; margin:0px auto; position:relative;}
+.banner-margintop{margin:28px 0 0 0;}
+.clarice-home-banner{ margin:0px 0 0 0; }

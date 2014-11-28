@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+.grpdirtxt a:hover {
+    color: #215C73;
+    text-decoration: none;
+}
+#hrPoliciesDiv {
+    float: left;
+    margin-top: 7px;
+	margin-left: 15px;
+    width: 200px;
+}
+
+#hrPoliciesDiv a {
+    color: #6C6C6C;
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 1px;
+    padding: 0 0 0 5px;
+    width: 150px;
+}
+#hrPoliciesDiv a:hover {
+    color: #215C73;
+    text-decoration: none;
+} 
+.newsl a:hover {
+ text-decoration:underline;
+ }
+ label p{
+
+	font-size:13px;
+	font-family:'DroidSansRegular',Arial,sans-serif;
+}
+.feedbacktextarea
+{
+  	line-height:1.28;
+	border:1px solid #d3d1d1;
+	background-color:#fff;
+    font-size: 13px;
+	float:left;
+    resize: none;
+    vertical-align: bottom;
+    width:575px;
+	height: 150px;
+	overflow: auto; 
+}
+.submitbutton
+{
+	clear:left;
+	float:left;
+	margin-top:20px; 
+	background-color:#277594;
+	font-size:13px;
+	font-weight:bold;
+	border:1px solid #277594;
+	width:58px;
+	height:23px;
+	color:#fff;
+	border-radius:1px;
+}
+.blogBox2{  border-radius:1px;  background-color:#EBEBEC; width:230px; padding:0px 0px 0px 0px; min-height:400px;}
+
+.hrPolicyBox{width:1000px; padding:0px 0px 0px 0px; overflow: hidden;}
+
+.innerBox{ border-radius:1px; background-color:#EBEBEC; width:740px; min-height:650px;}
+.innerBox1{ border-radius:1px; background-color:#EBEBEC; width:1000px; min-height:650px;}
+
+.red18{ font-size:18px; color:#A52A2A; text-decoration:none; line-height:18px; font-weight:bold; }
+
+.marl240px {
+text-align:center;
+}
+.marl40px{
+   margin-left:20px;
+}
+.marl50px{
+   margin-left:10px;
+}
+.fontsize12
+{
+	font-size:12px;
+	font-weight:bold;
+}
+
+.innerBoxClass
+{
+ float:right;
+}
+
+.newsdate{
+	float:left; 
+	width:115px; 
+	margin-top:7px;
+	text-align:right;
+	margin-left:-10px;
+}
+
+.newsheading{
+font-size:15px; 
+padding:5px 150px 0 5px;
+float:left; 
+width:432px;  
+font-weight:600
+}

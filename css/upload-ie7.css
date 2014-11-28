@@ -1,0 +1,63 @@
+input.hide
+{
+    position:absolute;
+    left:42px;
+    -moz-opacity:0 ;
+    filter:alpha(opacity= 0);
+    opacity: 0;
+    z-index: 2;
+    width:60px;
+    height:22px;		
+}
+input.hideticket
+{
+    position:absolute;
+    left:471px;
+    -moz-opacity:0 ;
+    filter:alpha(opacity=0);
+    opacity: 0;
+    z-index: 2;
+    width:60px;
+    height:22px;		
+}
+
+input.hideTicketEdit
+{
+    position:absolute;
+    left:160px;
+    -moz-opacity:0 ;
+    filter:alpha(opacity=0);
+    opacity: 0;
+    z-index: 2;
+    width:60px;
+    height:22px;		
+}
+#refType{
+     width:156px
+}
+input.red
+	{
+		background:url(../images/browse.png) no-repeat;
+		color:#ffffff;
+		z-index:1;
+		width:78px;
+		margin-left:18px;
+		font-size:12px;
+		border:none;
+		height:26px;
+	}
+.inputbox
+	{
+	width:149px; 
+	margin-left:1px;
+        position:relative;
+        bottom:1px;
+	}
+#techBlockDescriptionDiv
+{
+  margin-top:10px; 
+}
+#titleText
+{
+    height:16px;
+}

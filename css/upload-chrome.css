@@ -1,0 +1,76 @@
+input.hide
+{
+    position:absolute;
+    left:42px;
+    -moz-opacity:0 ;
+    filter:alpha(opacity= 0);
+    opacity: 0;
+    z-index: 2;
+    width:60px;
+    height:22px;		
+}
+        
+#refType{
+     width:177px
+}
+
+input.hideticket
+{
+    position:absolute;
+    left:471px;
+    -moz-opacity:0 ;
+    filter:alpha(opacity=0);
+    opacity: 0;
+    z-index: 2;
+    width:60px;
+    height:22px;		
+}
+
+input.hideTicketEdit
+{
+    position:absolute;
+    left:160px;
+    -moz-opacity:0 ;
+    filter:alpha(opacity=0);
+    opacity: 0;
+    z-index: 2;
+    width:60px;
+    height:22px;		
+}
+input.red
+{
+    background:url(../images/browse.png) no-repeat;
+    color:#ffffff;
+    z-index:1;
+    width:78px;
+    margin-left:18px;
+    font-size:12px;
+    border:none;
+    height:23px;
+    padding-top:4px;
+}
+
+.inputbox
+{
+    width:171px; 
+    margin-left:1px;
+    margin-top:2px;
+    position:relative;
+    top:2px;
+}
+#techBlockDescriptionDiv
+{
+    margin-top:30px; 
+}
+#titleText
+{
+    height:16px;
+}
+input:-webkit-input-placeholder {
+color:#CCC;  
+font-style:italic;  
+}
+input:-moz-placeholder {
+        color:#CCC;  
+        font-style:italic;  
+}

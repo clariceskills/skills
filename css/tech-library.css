@@ -1,0 +1,249 @@
+
+.blogBox2{ border-radius:1px;  background-color:#dadadb; width:230px; padding:0px 0px 0px 0px; min-height:450px;}
+.blogBox{ border-radius:1px; background-color:#fff; width:740px; padding:0px 0px 0px 0px; min-height:990px;}
+
+.lefttext1 a{
+    font-size:14px;
+    font-family:'DroidSansRegular',Arial,sans-serif;
+    color:#736b90;
+    font-weight:600;
+}
+.uploadBlock
+{
+    background:#277594; 
+    color:#ffffff; 
+    font-size:13px; 
+    margin:0px 10px 0 0; 
+    padding:3px 10px 3px 10px;
+    border-radius:1px;
+}
+.uploadnews1
+{
+    float:left;
+}
+.gdir{
+    float:left; 
+    margin-bottom:10px; 
+    padding:10px; 
+    height:153px; 
+    width:682px; 
+    background-color:#f3f3f3; 
+    border-radius:1px;
+}
+.designdrop{
+    margin-left:125px;
+}
+.swprod{
+    width:95%; background:none; margin-top:30px; margin-left: 8px;
+}
+.searchdiv1
+{
+    margin:30px auto 20px auto;
+}
+.gdir a:hover{
+    color:#999999;
+}
+
+.gdheading-text {
+    color: #585858;
+    display: block;
+    font-family: 'DroidSansBold',Arial,sans-serif;
+    font-size: 17px;
+    margin:auto; 
+    width:300px;
+    margin-bottom:20px;
+}
+.hrheading-text {
+    color: #585858;
+    display: block;
+    font-family: 'DroidSansBold',Arial,sans-serif;
+    font-size: 19px;
+    margin:auto; 
+    width:300px;
+    margin-bottom:20px;
+}
+.font-size-large-subheading-bullet
+{
+    color: #737373;
+    font-family: 'DroidSansBold',Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 5px;
+}
+.lefttext2 a{
+    font-size:14px;
+    font-family:'DroidSansRegular',Arial,sans-serif;
+    color:#736b90;
+}
+.lefttext3 a{
+    font-size:13px;
+    font-family:'DroidSansRegular',Arial,sans-serif;
+    color:#736b90;
+    text-decoration:underline;
+}
+.lefttext3 a:hover{
+    cursor:pointer;
+}
+.submit-button { 
+    background-color:#7C7C7C; 
+    border:1px solid #7C7C7C;
+    border-radius:1px;
+    text-align:center;
+    color:#fff; 
+    width:55px; 
+    padding-bottom:2px;  
+    height:21px; 
+    cursor: pointer;
+}
+.leftmenu
+{	
+    font-size:14px;
+    font-family:'DroidSansRegular',Arial,sans-serif;
+    color:#6C6C6C;
+    padding-right:20px;
+    padding-bottom:5px;
+    margin-left:10px;
+}
+
+.leftmenu:hover
+{
+    cursor:pointer; 
+    color: #215C73;
+    text-decoration: none;
+}
+.innermenudiv
+{
+    margin-left:25px;
+}
+.leftinnermenu
+{
+    font-size:13px;
+    font-family:'DroidSansRegular',Arial,sans-serif;
+    color:#6C6C6C;
+}
+
+.leftinnermenu:hover
+{
+    cursor:pointer; 
+    color: #215C73;
+}
+
+.selectedmenu
+{
+    background-color:#A4A4FF;
+}
+
+.nosubmenuselected
+{
+    font-size:35px;
+    color:#DBDBDB;
+    font-weight:bolder;
+    vertical-align:bottom;
+}
+
+.downloadicon:hover
+{
+    cursor:pointer;
+}
+.padl23
+{
+    padding-left:23px;
+}
+
+.bluebutton
+{ 
+    background-color:#277594; 
+    border:1px solid #277594;
+    -moz-border-radius:1px;/* firefox mozilla*/ 
+    -webkit-border-radius: 1px;
+    border-radius: 1px; 
+    font-size:13px; 
+    text-align:center;
+    vertical-align:top;
+    color:#fff; 
+    width:62px; 
+    height:22px; 
+    margin:0px 0 0 15px; 
+    padding-bottom:1px
+}
+
+.searchdiv
+{
+    float:right; 
+    margin:15px 20px 10px 0;
+}
+
+#TechBuildingBlocks
+{
+    /*background:url(../images/bg-color.png) repeat center;*/	
+}
+
+#TechBuildingBlocks tr
+{
+    /*background-color:#FFFBF0;*/
+
+    /*margin-top:5px;
+    margin-bottom:5px;*/
+}
+
+.oddtr
+{
+    height: 25px;	
+}
+.oddtr a
+{
+    font-family:'DroidSansRegular',Arial,sans-serif;
+    font-size: 12px;
+}
+.oddtr label
+{
+    font-family:'DroidSansRegular',Arial,sans-serif;
+    font-size: 12px;
+}
+.eventr
+{
+}
+#TechBuildingBlocks td,th
+{
+    background-color: #DBDBDB;
+}
+
+.links a 
+{
+    background: url("../images/bkg-nav-pri-sep.gif") no-repeat scroll left 6px transparent;
+    padding: 3px 8px;
+    text-align: center;
+}
+
+.links a:first-child
+{
+    PADDING-BOTTOM: 0px; 
+    PADDING-LEFT: 0px; 
+    PADDING-RIGHT: 8px; 
+    BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 0px;
+}
+.litemwh
+{
+    max-width:100px; 
+    max-height:60px
+}
+.citemwh
+{
+    width:100px; 
+    height:100px
+}
+.fitemwh
+{
+    width:100px; 
+    height:100px
+}
+.iitemwh
+{
+    width:50px; 
+    height:50px
+}
+.titemwh
+{
+    width:100px; 
+    height:100px
+}
