@@ -2,9 +2,9 @@
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="css/home-header.css"/>
-<link rel="stylesheet" href="css/HrPolicies.css"/>
+<!-- <link rel="stylesheet" href="css/HrPolicies.css"/>
 <link rel="stylesheet" href="css/tech-library.css"/>
-<link rel="stylesheet" href="css/styles.css"/>
+<link rel="stylesheet" href="css/styles.css"/> -->
 <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css"/>
 <script src="../js/jquery-1.9.1.js"></script>	
 <script src="../js/angular.min.js"></script>	
@@ -14,18 +14,134 @@
 	<script src="controllers/homeController.js"></script>
 	<script src="services/skill-service.js"></script>
 <body>	
-<div class="innerBox innerBoxClass">
+<div id="header">
+            <div id="header-pri">
+                <div class="widthfull-100per leftalign banner-margintop">
+                    <div class="row logo-nav-block">
+                        <!--Logo-->
+                        <aside class="leftalign">
+                         <a href="home">   <img src="css/images/clarice-text.png" class="clarice-site-logo"></a>
+                        </aside>
+                        <!-- Navigation-->
+                        <div class="rightalign" style="float:right">
+                           <a href="home">     <img class="clarice-site-logo1" src="css/images/clarice-logo.png"> </a>
+                        </div>
+                    </div>
+                </div><!--/area-6 -->
+                <!--                 <div class="area-18 area-last">-->
+                <div class="row rightalign">
+                    <nav class="twelve columns">
+
+                        <ul id="tabsList" class="listl tabs no-print left">
+                            <li><div style=" font-size: 0.9em;" class="int " id="tabDiv_1"><a id="tabLink_1" onclick="javascript:invokeAction('home');">Home</a></div></li>
+                            <li><div style=" font-size: 0.9em;" class="int " id="tabDiv_2"><a id="tabLink_2" onclick="javascript:invokeAction('flexiLink');">Policies</a></div></li>
+                            <li><div style=" font-size: 0.9em;" class="int " id="tabDiv_3"><a id="tabLink_3" href="#.">Library<span class="custimg">&nbsp;&nbsp;<img src="css/images/chevron.png"></span></a></div>
+                                <ul>						    
+                                    <li><div style="font-size: 0.9em;" id="innerTab3Div_1" class="int"><a onclick="javascript:invokeAction('techLibrary');">Technology</a></div></li>
+                                    <li><div style="font-size: 0.9em;" id="innerTab3Div_2" class="int"><a onclick="javascript:invokeAction('designLibrary');">UX</a></div></li>
+                                </ul>
+                            </li>
+                            <!--                                                                       <li ><div id="tabDiv_4" class="int"><a  onclick="javascript:invokeAction('employeeGroupDir');" id="tabLink_4">Directory</a></div></li>-->
+                            <li><div style=" font-size: 0.9em;" class="int " id="tabDiv_4"><a id="tabLink_4" onclick="javascript:invokeAction('searchDetailsEmployee');">Directory</a></div></li>
+                            <li><div style=" font-size: 0.9em;" class="int " id="tabDiv_5"><a id="tabLink_5" onclick="javascript:invokeAction('generalNews');">News</a></div></li>
+                            <li><div style=" font-size: 0.9em;" class="int  buttonLook" id="tabDiv_6"><a id="tabLink_6" onclick="javascript:invokeAction('tools');">Tools</a></div></li>
+                            <li><div style=" font-size: 0.9em;" class="int " id="tabDiv_7"><a id="tabLink_7" onclick="javascript:invokeAction('internalContactsLink');">Reference</a></div></li>
+                            <!--                            <li> <div id="librarydiv" class="overlay-pop contain-overlay-4 displayNone">
+                                                                <div id="libTechDiv" class="overlay-int clear">
+                            
+                                                                </div>
+                                                            </div>
+                                                        </li>-->
+                        </ul>
+                    </nav>
+                </div>
+                <!--               </div>-->
+
+
+
+
+                <div>
+                    <ul class="nav-pri right s-11 clear">
+                        
+                        <li id="username"><a href="employeeDesc" style="color:#F0A804; font-weight: bold;text-shadow:none;" class="empBlock">Deepak Yadav</a></li>
+                        <li style="background:none;" class="off"><a onclick="logout();">Logout</a></li>
+                    </ul>
+                </div>
+            </div><!-- /header-pri -->
+
+        </div>
+<div class="header_dashboard"></div>
+<table id="headerTable">
+    <tbody><tr>
+        <td>
+        </td>
+    </tr>
+    <tr>
+        <td>
+
+        </td>
+    </tr>
+</tbody></table>
+<center>
+        <table id="mainContent" class="tablebgcolor">
+            <tbody><tr>
+                <td class="padr30">
+                    <div id="mantle_skin" style="position: relative;">
+                        <!-- Leaderboard -->
+                        <div class="wrapper contain contain-25 padt10">
+                            <table style="width:100%">
+                                <tbody><tr>
+                                    <td>
+                                        <table>
+                                            <tbody><tr>
+                                                <td style="padding-right: 0px; height:500px; width: 600px;">
+                                                    <div class="hrPolicyBox">                      
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <title></title>
+        <div class="blogBox2 floatleft">
+            <div style="margin-left:5px;">
+                <div class="clearfix mart10px"></div>
+                <a href="/claricetech/LMS" style="width:100px;" class="leftmenucollapse leftmenu" id="ActionsLabel_1">Leaves<span style="padding-left: 133px;"></span></a>
+                <div style="" class="innermenudiv" id="ActionsLabelSubDiv_1">
+                    <a id="applyLeaveActions" href="/claricetech/applyLeaveActions" class="leftinnermenu" style="color: rgb(33, 92, 115);">Apply for leave</a> <div class="clearfix"></div>   
+                    <a id="applyPastLeaveActions" href="/claricetech/applyPastLeaveActions" class="leftinnermenu">Apply for past leave</a> <div class="clearfix"></div>   
+                    <a id="getLeaveActions" href="/claricetech/getLeaveActions" class="leftinnermenu">Manage leave</a> <div class="clearfix"></div>   
+                    <a id="historyLeaveActions" href="/claricetech/historyLeaveActions" class="leftinnermenu">Leave History</a> <div class="clearfix"></div>                                                       
+                </div>
+                     <div class="clearfix mart10px"></div>
+                      <a href="/claricetech/CBS" style="width:100px;" class="leftmenu leftmenuexpand" id="ActionsLabel_2">Conference Room Booking<span style="padding-left: 9px;"></span></a>
+                      <div style="display:none;" class="innermenudiv" id="ActionsLabelSubDiv_2">
+                      <a id="roomBookActions" href="/claricetech/roomBookActions" class="leftinnermenu">Book a room</a> <div class="clearfix"></div>   
+                      <a id="manageBookActions" href="/claricetech/manageBookActions" class="leftinnermenu">Cancel Booking</a> <div class="clearfix"></div>                               
+                      </div>
+                <div class="clearfix mart10px"></div>
+                <a href="/claricetech/TS" style="width:100px;" class="leftmenu leftmenuexpand" id="ActionsLabel_3">Ticketing System <span style="padding-left: 69px;"></span></a>
+                <div style="display:none;" class="innermenudiv" id="ActionsLabelSubDiv_3">
+                    <a id="raiseTicketsActions" href="/claricetech/raiseTicketsActions" class="leftinnermenu">Raise a ticket</a> <div class="clearfix"></div>   
+                    <a id="manageTicketsActions" href="/claricetech/manageTicketsActions" class="leftinnermenu">Manage tickets</a> <div class="clearfix"></div>                       
+                </div>
+                <div class="clearfix mart10px"></div>                
+            </div>
+        </div>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <title>JSP Page</title>       
+        <div class="innerBox innerBoxClass">
+            <div style="clear:right"></div>
+            <div style="background-color:#EBEBEC;padding:20px;font-family:'DroidSansBold',Arial,sans-serif;" class="marl40px" id="content">                               
+                <span ng-show="" style="display:none; text-align:center; font-size: 12px; color: red" id="error">Please fill mandatory(*) values</span>
+                <span style="display:none; text-align:center; font-size: 12px; color: red" id="dateerror">From date can't be in past.</span>
+                <div class="innerBox innerBoxClass">
 <div style="background-color:#EBEBEC;padding:20px;font-family:'DroidSansBold',Arial,sans-serif;" class="marl40px" id="content">                                
     <h3 style="font-size: 17px; color:#6c6c6c; padding-left:269px;width: 100%;font-weight: bolder;margin-top: 52px;">Add Skills</h3>
     <hr style="border: thin gray dotted ">    
-    <form role="skillform" ng-submit="addSkills()" class="form-horizontal">
-        <span ng-class="{ 'has-error': skillform.skill.$error }" style="display:none; text-align:center; font-size: 12px; color: red" id="error">Please fill mandatory(*) values</span>        
+    <form  name="skillform"  ng-submit="addSkills(skillform.$valid)"  class="form-horizontal" novalidate>
+        <span ng-show="skillInvalid" style="text-align:center; font-size: 12px; color: red" id="error">Please fill mandatory(*) values</span>		               
         <table style="font-size: 13px; color:#8d8d8d;width: 100%">
             <tbody>                        
             <tr>
                 <td width="20%" style="text-align:right">Skill *</td> 
                 <td width="40%" style="text-align:center">
-                <input type="text" style="border: 1px solid grey ;width:90%" ng-model="skill" required placeholder="Enter Skill">
+                <input name="skill" required type="text" style="border: 1px solid grey ;width:90%" ng-model="skill"  placeholder="Enter Skill">
                 </td>                            
             </tr>
             <tr>
@@ -48,16 +164,16 @@
 <div class="innerBox" style="min-height: 350px;">
 <div style="clear:right"></div>        
 <div style="background-color:#EBEBEC" class="marl40px" id="content">
-  <p style="width:140px;" class="hrheading-text">Listing</p>  
+  <p style="width:140px;" class="hrheading-text">Listing</p>   
   <table cellspacing="0px" cellpadding="0px" align="center" style="width:90%; background:none; margin-top:10px; margin-left:auto; margin-right:auto;" id="TechBuildingBlocks">
       <tbody><tr class="oddtr">
-          <th width="33%">
+          <th width="37%">
               Name
           </th>
-          <th width="33%">
+          <th width="37%" >
               Category
           </th>
-          <th width="33%">
+          <th width="27%">
               Actions
           </th>                            
       </tr>
@@ -69,8 +185,8 @@
 		 <label style="font-size:12px; font-size: 12px; font-family:'DroidSansBold',Arial,sans-serif;">{{data.skillCategory}}</label>			                
 		 </td>			                
 		 <td align="center" style="background:#f3f3f3;">
-		        <button edit-skill type="button" class="" ng-click="edit(data.id)">Edit</button>
-		        <button type="button" ng-click="removeSkills(data.id)">Remove</button>
+		 		<input type="button" ng-click="edit(data.id)" value="Edit"></input>
+		        <input type="button" ng-click="removeSkills(data.id)" value="Remove"></input>
 		 </td>
 	  </tr>         
      </tbody>
@@ -78,5 +194,36 @@
  </div>
 </div>
 </div>
+                    </tbody></table>
+            </div>                    
+        </div>
+                                                    </div>                                                    
+                                                </td>
+                                            </tr>
+                                        </tbody></table>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                            <br>
+                        </div>
+                    </div>  
+                </td> 
+            </tr> 
+        </tbody></table>           
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <title></title>        
+        <div style="visibility: hidden;" id="loadingMask" class="loadingMask"></div>
+    </center>
+
 </body>
 </html>
+<style>
+.hrheading-text {
+    color: #585858;
+    display: block;
+    font-family: "DroidSansBold",Arial,sans-serif;
+    font-size: 19px;
+    margin: auto auto 20px;
+    width: 300px;
+}
+</style>
