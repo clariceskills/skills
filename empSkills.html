@@ -1,0 +1,58 @@
+<html ng-app="skillApp">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	<script src="../js/jquery-1.9.1.js"></script>	
+	<script src="../js/angular.min.js"></script>	
+	<script src="../js/angular-route.js"></script>
+	<script src="../js/angular-resource.js"></script>
+	<script src="controllers/app.js"></script>
+	<script src="controllers/empSkillsController.js"></script>
+	<script src="services/skill-service.js"></script>
+	<script src="services/emp-skill-service.js"></script>
+<div class="container" ng-controller="EmpSkillsCtrl">
+    <h3>Add employee skill details: </h3>
+    <form role="form" ng-submit="addSkills()">
+        <div class="row">
+            <div class="input-group">
+            	Category:
+                <select name="category" ng-model="category" >
+				<option value="">--choose category</option>
+				<option ng-repeat="category in categories" value="{{category.skillCategory}}">{{category.skillCategory}}</option>
+				</select><br/><br/>
+            
+                Name:
+                <select name="skillName" ng-model="skillName" >
+				<option value="">--choose skill</option>
+				<option ng-repeat="skill in skills | filter:category" value="{{skill.id}}">{{skill.skillName}}</option>
+				</select><br/><br/>
+                
+                Level:
+                <input type="radio" ng-model="level" value=1>  Beginner
+                <input type="radio" ng-model="level" value=2> Intermediate
+                <input type="radio" ng-model="level" value=3> Expert
+                <span class="input-group-btn">
+                <button type="submit" class="btn btn-default btn-primary" value="{{submitSkill}}">{{submitSkill}}</button>
+                </span>
+            </div>
+        </div><br/><br/>
+        <h3>Listing: </h3>
+        Search:<input ng-model="search">
+        <table  class="table table-bordered">
+            <th>NAME</th>
+            <th>CATEGORY</th>
+            <th>LEVEL</th>
+            <th>ACTION</th>
+            <tr ng-repeat="data in empSkills | filter:search">
+                <td>{{data.skillName}}</td>
+                <td>{{data.skillCategory}}</td>
+                <td>{{data.levelName}}</td>
+                <td>
+                    <button edit-skill type="button" class="" ng-click="edit(data.id,data.skill_id)">Edit</button>
+                    <button type="button" ng-click="removeSkills(data.id)">Remove</button>
+                </td>
+            </tr>
+        </table>
+        
+    </form>
+</div>
+</html>

@@ -12,8 +12,12 @@ angular.module('skillApp').service('skillService', [ '$http', function($http) {
 		return $http.get(urlBase + 'getSkills');
 	};
 	
+	skillService.listCategories = function() {
+		return $http.get(urlBase + 'getSkillCategories');
+	};
+	
 	skillService.addSkills = function(language,category) {
-		return $http.post(urlBase + 'createSkill',{skillName:language,skillCategory:category});
+		return $http.post(urlBase + 'createSkill',{skillName:language,category_id:category});
 	};
 	
 	skillService.removeSkills = function(id) {
@@ -21,7 +25,7 @@ angular.module('skillApp').service('skillService', [ '$http', function($http) {
 	};
 	
 	skillService.updateSkills = function(id,langauge,category) {
-		return $http.put(urlBase + 'updateSkill',{id:id,skillName:language,skillCategory:category})
+		return $http.put(urlBase + 'updateSkill',{id:id,skillName:language,category_id:category})
 	};
 	
 	return skillService;

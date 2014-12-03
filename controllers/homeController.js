@@ -3,10 +3,9 @@ angular.module('skillApp')
         function ($scope,$http,skillService) {
 	    $scope.submitSkill = "Add";
 	    $scope.skillName = "skillName";
-    	$scope.categories = [{name: "Languages",id:'1'},
-    	                     {name: "Platforms",id:'2'},
-    	                     {name: "Frameworks",id:'3'},
-    	                     {name: "Tools",id:'4'}];
+    	skillService.listCategories().success(function(categories) {
+    		$scope.categories = categories;
+    	})
     	getSkillList()
     	function getSkillList() {
     		skillService.listSkills().success(function(skills){
@@ -41,6 +40,7 @@ angular.module('skillApp')
         $scope.edit= function(index){
             $scope.submitSkill = "Update";
             $scope.id = index;
+            console.log($scope.skills);
             var dupArr = $scope.skills;
             for( var i = 0; i < dupArr.length; i++ ) {
                 if( dupArr[i].id === index ) {
@@ -49,6 +49,6 @@ angular.module('skillApp')
                 }
             }
             $scope.skill = $scope.skills[index].skillName;
-            $scope.category = $scope.skills[index].skillCategory;
+            $scope.category = $scope.skills[index].category_id;
         }
     }]);
